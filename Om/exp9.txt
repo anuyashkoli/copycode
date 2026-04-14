@@ -1,0 +1,20 @@
+1. Check Nmap Installation
+nmap --version
+
+2. Ping Scan (Host Discovery)
+nmap -sn scanme.nmap.org
+
+3. Basic Port Scan (Open Ports)
+nmap -Pn scanme.nmap.org
+
+4. TCP Port Scan
+nmap -sT -Pn scanme.nmap.org
+
+5. UDP Port Scan
+nmap -sU -Pn scanme.nmap.org
+
+6. OS Detection (Fingerprinting)
+nmap -O -Pn scanme.nmap.org
+
+7. Service Version Detection
+nmap -sV -Pn scanme.nmap.org

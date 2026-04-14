@@ -1,0 +1,14 @@
+1. Find IP Address (DNS Lookup)
+nslookup google.com
+
+2. Find Mail Server Records (MX)
+nslookup -type=mx google.com
+
+3. Trace Network Path
+tracert google.com
+
+4. Domain Registration Details (WHOIS)
+whois google.com
+
+5. Detailed DNS Information
+dig google.com
